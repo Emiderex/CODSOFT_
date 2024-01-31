@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TreasureQuest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./JavaScript/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/e17253bf82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div class="header" id="home">
+            <div class="navbar">
+                <nav>
+                    <h2>T<span class="half-color">Q</span></h2>
+                    <div id="menu">
+                        <ul id="sidemenu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#category">Category</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <img class="icon" src="./SVG/circle-xmark-regular.svg" width="30px" onclick="closemenu()">
+                        </ul>
+                        <img class="icon"  src="./SVG/bars-staggered-solid.svg" width="30px" onclick="openmenu()">
+                        <!-- <a class="btn" href=""><button>Search</button></a> -->
+                    </div>
+                </nav>
+                
+            </div>
+
+            <div class="content">
+               <div class="cont">
+                    <h3>Find The Gems <br> & Hidden Treasures <br> on <span class="half-color">TreasureQuest<span> </h3>
+                    <p>Find Everything about collectibles from <br>people around you</p>
+                    <div class="newsletter">
+                        <form action="">
+                            <input type="search" id="search" placeholder="Find treasures.....">
+                            <input type="submit" name="submit" value="Search">
+                        </form>
+                    </div> 
+               </div>
+            </div>
+        </div>
+
+      
+
+        <!-- sponsor -->
+        <div id="sponsor">
+            <h3>Supported By good people at</h3>
+            <div class="sponsorship">
+                <div class="sponsor">
+                    <img src="./SVG/logo-coinbase.svg" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./SVG/logo-nasa.svg" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./SVG/logo-vodafone.svg" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./SVG/logo-spotify.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+          <!-- Categories  -->
+        <div class="category" id="category">
+            <div class="cat1">
+                <h3>Categories</h3>
+                <button id="toggleButton" onclick="toggleItems()"> more>> </button>
+            </div>
+            <div class="cat-box">
+                <ul id="itemList">
+                    <li>Novice</li>
+                    <li>Avanced Beginner</li>
+                    <li>Competent</li>
+                    <li>Proficient</li>
+                    <li class="hidden">Expert</li>
+                    <li class="hidden">Tutor</li>
+                </ul>
+            </div>
+
+            <!-- container -->
+            <div class="container" id="features">
+                <div class="cont1">
+                    <h3>Want to learn more about our techniques?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis soluta dolorum explicabo. Modi fugit eveniet rem facere </p>
+                        <div class="sub-grids">
+                            <ul>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis assumenda ea impedit.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam </li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis assumend</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis assumenda </li>
+                            </ul>
+                        </div>
+                    <div id="btn">
+                        <button>Start Now</button>
+                        <button>Take a course</button>
+                    </div>
+                </div>
+                <div class="con2">
+                    <img src="./img.png" alt="">
+                </div>
+            </div>
+
+            <!-- manager profile  -->
+            <div class="about" id="about">
+                <div class="col2">
+                    <p>Finder of the year</hp>
+                    <h2>The heroes making things the industry</h2>
+                </div>
+                <div class="col1">
+                    <img src="./user1.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- image-gallery -->
+            <div class="image-gallery" id="team">
+                <div class="image left">
+                    <img src="./JPG/img-09.jpg" alt="">
+                    <div class="top">
+                        <h5>Happy team</h5>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./JPG/img-10.jpg" alt="">
+                    <div class="bottom">
+                        <h5>Coffee talk</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Et voluptas quos ad est nostrum libero ipsum ipsum.. 
+                        </p>
+                    </div>
+                </div>
+                <div class="image right">
+                    <img src="./JPG/img-11.jpg" alt="">
+                    <div class="top">
+                        <h5>A group talk session</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Download app  -->
+            <div class="box-app">
+                <h4>Download Our <span style="color:rgb(29, 29, 129)">App</span> <br> to get started</h4>
+                <div class="app">
+                    <button>App store</button>
+                    <button>Play store</button>
+                </div>
+            </div>
+        </div>
+
+            <!-- Footer & subscribe -->
+            <div class="footer">
+                <h4>Want to get Premium news <br>and tip updates?</h4>
+                <div class="subscribe">
+                    <form action="">
+                        <input type="text" name="text" id="mail" placeholder="Enter your Email...">
+                        <input type="submit" name="submit" value="Subscribe">
+                        <p>Join over 100,000 subscribers. we love you <br> so we're protecting your data. Here's our privacy policy</p>
+                    </form>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                
+            </div>
+</body>
+</html>
